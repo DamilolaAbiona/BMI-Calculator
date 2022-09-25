@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size:10px ;
+    
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+/* Start here */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.BMI{
+    color: white;
+    width: 40rem;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(to right top, #03014e, #070352, #0b0555, #100659, #15075d);
+}
+.title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+form > * {
+    margin-bottom: 1rem;
+}
+.height > label {
+    display: block;
+    margin-bottom: .4rem;
+}
+.weighty > label {
+    display: block;
+    margin-bottom: .4rem;
+}
+input{
+    width: 100%;
+    padding: .5rem 0rem;
+}
+.btn{
+    width: 100%;
+    color: white;
+    font-size: 1.9rem;
+    padding: .5rem 0rem;
+    border: none;
+    background-color: #FA6C48;
+    transition: all .7s ease;
+}
+.btn:hover{
+    font-size: 1.7rem;
+}
+.result-btn {
+    width: 100%;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem ; 
+    border: none;
+}
+.reset {
+    background-color: red;
+    width: 5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    display: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.loader-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+}
+.loader {
+    width: 2rem;
+}
+
+/* Media Query */
+@media screen and (max-width: 500px){
+    .main {
+        padding: 2rem;
+    }
+    
+}
