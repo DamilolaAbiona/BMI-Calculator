@@ -36,7 +36,7 @@ setTimeout(() => {
 
 }
 function calculateBMI(height, weight) {
-  height / 100;
+  height = height / 100;
   let bmi = (weight / Math.pow(height, 2)).toFixed(1);
   console.log(bmi);
 
