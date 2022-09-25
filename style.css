@@ -46,7 +46,7 @@ form > * {
 input{
     width: 100%;
     padding: .5rem 0rem;
-    Border: 1px solid white;
+    border: 1px solid white;
     color: white;
 }
 .btn{
