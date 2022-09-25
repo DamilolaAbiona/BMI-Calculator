@@ -4,6 +4,7 @@ const form = document.querySelector("form");
 const btn = document.querySelector(".btn");
 const heightInput = document.querySelector(".height1");
 const weightInput = document.querySelector(".weight");
+const valid =document.querySelector(".valid")
 
 form.addEventListener("submit", submitForm);
 function submitForm(e) {
@@ -13,12 +14,13 @@ function submitForm(e) {
 //   display rest button
 reset.style.display = "block"
 result.style.display = "block"
+valid.style.display = "block"
 
 
   if (height === "") {
-    return (reset.textContent = "Please enter a valid height! ");
-  } else if (weight === "") {
-    return (reset.textContent = "Please enter a valid weight !");
+    return (valid.textContent = "Please enter a valid height! ");
+  } else if (weight ==="") {
+    return (valid.textContent = "Please enter a valid weight !");
   } else {
         // reload 
 result.innerHTML =`
@@ -58,6 +60,7 @@ function showResult(val, color) {
 reset.addEventListener("click", () => {
     form.reset();
     result.style.display = "none"
-    reset.style.display =none;
+    reset.style.display ="none";
+    valid.style.display = "none";
 
 });
