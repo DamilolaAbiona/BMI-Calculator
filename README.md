@@ -6,5 +6,8 @@ Body mass index (BMI) is a measure of body fat based on height and weight that a
 
 
 
-  [Live Demo view](https://damilolaabiona.github.io/BMI-Calculator/)
+  [Live Demo view]([https://damilolaabiona.github.io/BMI-Calculator/])
+
+
+
 [Screenshots](https://user-images.githubusercontent.com/99470227/192168588-8e94e518-db3c-4a01-881f-6deef5bcca87.jpg)
